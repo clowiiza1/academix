@@ -1,0 +1,9 @@
+.bodybg{
+    -fx-background-image:url("C:/Users/Chloe/Downloads/Academix_GroupAssignment/background.jpg");
+    -fx-background-image: 100% 100%;
+}
+.dashboardbg{
+    -fx-background-image:url("C:/Users/Chloe/Downloads/Academix_GroupAssignment/dashboardbackground.jpg");
+    -fx-background-image: 100% 100%;
+}
+

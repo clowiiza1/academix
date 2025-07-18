@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=LoginSecurity
+comment1.params=
+comment1.target=LoginSecurity()
+comment2.params=userID\ password
+comment2.target=java.lang.String\ encryptKey(int,\ java.lang.String)
+comment3.params=userID
+comment3.target=java.security.Key\ generateKey(int)
+numComments=4

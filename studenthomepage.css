@@ -1,0 +1,42 @@
+.colorgradient{
+    -fx-background-color: linear-gradient(to bottom right, #004aad, #0470ff);
+}
+.button {
+    -transition: border-radius 1.0s ease;
+    -fx-background-radius: 30px;
+    -height: 104px; /* adjust the height to reduce the line thickness */
+     -width: 146px;
+     -font-family: Verdana;
+      -font-size: 13px;
+      -font-weight: bold;
+    
+}
+.button:hover{
+    -fx-background-color: linear-gradient(to bottom right, #004aad, #0470ff);
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 30px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: #ffffff;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+.buttonLogout
+{
+    -transition: border-radius 1.0s ease;
+    -fx-background-radius: 30px;
+    height:108px; /* adjust the height to reduce the line thickness */
+     width: 36px;
+}
+.buttonLogout:hover{
+    -fx-background-color: linear-gradient(to bottom right, #ff0000, #ff1212);
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 30px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: #ffffff;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+.columns
+{
+    -fx-background-radius: 30px;
+}

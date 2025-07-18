@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Lecturers
+comment1.params=ID\ name\ surname\ email\ role
+comment1.target=Lecturers(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ populateLecturerCourses()
+comment3.params=
+comment3.target=java.lang.String\ displayCourses()
+comment4.params=
+comment4.target=javafx.collections.ObservableList\ viewResults()
+comment5.params=studentID\ courseID\ participationMark\ examMark
+comment5.target=boolean\ addResults(int,\ java.lang.String,\ double,\ double)
+comment6.params=studentID
+comment6.target=javafx.collections.ObservableList\ getResults(int)
+comment7.params=studentID\ courseID\ participationMark\ examMark
+comment7.target=boolean\ updateResults(java.lang.String,\ java.lang.String,\ double,\ double)
+comment8.params=studentID\ courseID
+comment8.target=boolean\ deleteResults(int,\ java.lang.String)
+numComments=9

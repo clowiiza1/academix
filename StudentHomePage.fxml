@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SceneController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="studenthomepage" stylesheets="@studenthomepage.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="1080.0" fitWidth="1926.0" layoutX="-4.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@dashboardbackground.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnResults" layoutX="510.0" layoutY="464.0" mnemonicParsing="false" onAction="#switchToStudentViewResults" prefHeight="145.0" prefWidth="216.0" stylesheets="@studenthomepage.css" text="View Results">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font></Button>
+            <Button fx:id="buttonLogout" layoutX="173.0" layoutY="-2.0" mnemonicParsing="false" onAction="#switchToLogin" prefHeight="47.0" prefWidth="180.0" styleClass="buttonLogout" text="Logout" textFill="RED" />
+            <Button layoutX="1171.0" layoutY="462.0" mnemonicParsing="false" onAction="#switchToChangePassword" prefHeight="145.0" prefWidth="216.0" text="Change Password">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font></Button>
+            <Label layoutX="670.0" layoutY="264.0" text="Student Dashboard" textFill="#004aad">
+               <font>
+                  <Font name="System Bold" size="64.0" />
+               </font>
+            </Label>
+            <Button layoutX="849.0" layoutY="466.0" mnemonicParsing="false" onAction="#switchToStudentAddCourse" prefHeight="145.0" prefWidth="216.0" text="Edit Additional Courses" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font></Button>
+            <Button fx:id="buttonLogout1" layoutX="-7.0" mnemonicParsing="false" onAction="#Exit" prefHeight="47.0" prefWidth="180.0" styleClass="buttonLogout" text="Exit" textFill="RED" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

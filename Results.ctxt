@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Results
+comment1.params=userID\ CourseID\ particaptionMark\ examMark\ finalMark
+comment1.target=Results(java.lang.String,\ java.lang.String,\ double,\ double,\ double)
+comment2.params=
+comment2.target=double\ getParticpationMark()
+comment3.params=
+comment3.target=double\ getExamMark()
+comment4.params=
+comment4.target=double\ getFinalMark()
+comment5.params=particaptionMark\ examMark
+comment5.target=double\ calculateFinalMark(double,\ double)
+comment6.params=
+comment6.target=void\ setFinalMark()
+comment7.params=userID\ CourseID\ gradeItems
+comment7.target=void\ updateGrade(java.lang.String,\ java.lang.String,\ java.lang.String[])
+numComments=8
