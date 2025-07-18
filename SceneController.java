@@ -167,7 +167,7 @@ public class SceneController
     // (CONSTR, USER, PASSWORD)
     public final String CONSTR = "jdbc:mysql://localhost:3306/resultprocessing";
     public final String USER = "root";
-    public final String PASSWORD = "isuckatfort@01";
+    public final String PASSWORD = "";
 
     
  
